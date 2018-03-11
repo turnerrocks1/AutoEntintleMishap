@@ -1,0 +1,51 @@
+First lets give a little back story of how it went down so yesterday 03/23/10 13 days before my bday yayyy!!!
+Anyways getting off topic i wanted to install Ext3nder as i always did with all my previous jailbreaks and no im not a noob I've 
+been in the Jailbreaking community since ios 3.1.3 but anyways i looked it up and came across this tweet saying by installing 
+autoentitle you can install ext3nder installer so i tried it and it worked i successfully installed it and installed an ipa with ext3nder
+Side note this was the version before the latest update 4.0.1 so then i updated to 4.0.1 and it worked,
+but it didnt go so well see i think the problem is that the older version also changed the contents of the debs that cydia was 
+installing and gave it correct entitlements that wasn't needed the newer version was supposedly made to "fix" this problem by 
+automatically disabling it but see if the previous autoentitle wasn't removed properly then it would still be a running
+problem so having that said i think autoentitle needs a better uninstallation script but anyways this caused many problems with 
+dpkg that we're unsolvable without restoring but i wasn't going to quit their i removed dpkg and all it's
+sub binaries with filza from tweakbox but it made the sitation worse n00b mistake on my part because knowing that i use linux 24/7 I
+realized as soon as i clickked delete from the trash folder i was like wait dpkg is the binary that installs and uninstalls pkgs
+but it was too late a second to fast after all these years i started to panic because now cydia wouldnt even install packages without
+dpkg so another noob boost of energy kicked in and yes kid you not i removed cydia installer and it removed every single package
+and crashed cydia so a psuedo working cydia with every app crashing even stock apps were crashing so i started to remember my apticker.der
+from the /system/library/caches folder and i was releaved but im4m successfully changed it to a shsh
+but tss saver by 1conan and even img4 tool that i used to make the shsh kept returning invalid blobs and i wasn't going to take a chance
+and restore with invalid blobs i know project zero comes with powerful kernel exploits every few months ** and i wasnt going to 
+take a chance and have to wait months for another fucking jailbreak so i grew a pair and had to figure out how to fix it myself then 
+i remember ... Liberios
+
+How to fix every problem from electra and tweaks the dangerous way
+
+Remember Liberios yes the liberios that everyone forgot about this will become your bestfriend when your in trouble and fuck up
+electra and cydia
+
+Step 1 do something noobish like fuck up major jailbreak binaries
+
+Step 2 download tweak box via safari 
+
+install filzaEsxaped from tweakbox
+
+step 3 download liberios and install with cydia impactor run liberios and click jailbreak
+
+step 4 ** side note since openssh was installed with cydia cydia will also remove it so ... yea stfp with cyberduck won't work so youll 
+have to have a linux or mac with ssh or install cygwin on windows and install openssh
+
+step 4 go to safari and go to my me.sh and copy all the contents of the script aka "select all and copy" then open filza and go to /jb/bin
+and create a file call me1.sh open it and paste everything into it and click save and done
+
+step 5 go to your computer ssh into your device with ssh root@your-iphone-ip 
+
+step 6 run the export path command for liberios 
+
+step 7 type cd /jb/bin
+
+step 8 run chmod 777 me1.sh
+
+step 9. run rm just to see it workes
+
+step 10 and final step . pray and type ./me1.sh and wait a few seconds and problem file a issue on this github
